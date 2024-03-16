@@ -1,0 +1,55 @@
+.block_1_s_4_component {
+  background-image: url(../../assets/Mask-Group.svg);
+  background-color: #dedee2;
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+
+  width: 400px;
+  min-height: 250px;
+}
+
+.block_2_s_4_component {
+  background-image: url(../../assets/Mask-Group-1.svg);
+  background-color: #dedee2;
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+
+  width: 400px;
+  min-height: 250px;
+}
+
+.block_3_s_4_component {
+  background-image: url(../../assets/Mask-Group-2.svg);
+  background-color: #dedee2;
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+
+  width: 400px;
+  min-height: 250px;
+}
+
+.block_1_s_4_component, .block_2_s_4_component, .block_3_s_4_component {
+    padding:20px;
+    padding-right: 0;
+}
+
+.block_1_s_4_component h1, .block_2_s_4_component h1, .block_3_s_4_component h1 {
+ font-size: 24px; 
+ font-weight: 600;
+ color: #1B1D1F;  
+ max-width: 230px;
+ min-height: 100px; 
+}
+
+.block_1_s_4_component button, .block_2_s_4_component button, .block_3_s_4_component button {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #410F9E;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}

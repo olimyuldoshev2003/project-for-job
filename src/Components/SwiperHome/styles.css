@@ -1,0 +1,37 @@
+.bg_swiper_home {
+  background-image: url(../../assets/Mask-Group-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100% 80vh;
+  min-height: 80vh;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .bg_swiper_home {
+    background-color: #EFEDF8;
+    border: 5px solid #45388833;
+    background-image: url(../../assets/Mask-Group-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100% 60vh;
+    border-radius: 20px;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 30px;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
